@@ -39,3 +39,7 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
+openApi {
+	outputDir.set(file("demonstration"))
+}
