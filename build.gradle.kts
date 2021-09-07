@@ -1,12 +1,12 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "2.5.4"
+	id("org.springframework.boot") version "2.4.10"
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	id("com.github.johnrengelman.processes") version "0.5.0"
 	id("org.springdoc.openapi-gradle-plugin") version "1.3.3"
-	kotlin("jvm") version "1.5.21"
-	kotlin("plugin.spring") version "1.5.21"
+	kotlin("jvm") version "1.4.32"
+	kotlin("plugin.spring") version "1.4.32"
 }
 
 group = "springdoc-unexpectable-numbering-suffix-changing-inspection"
