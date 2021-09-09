@@ -11,12 +11,32 @@
     }
   ],
   "paths": {
+    "/foobar5/foobar": {
+      "get": {
+        "tags": [
+          "global-foo-bar-replying-controller-5"
+        ],
+        "operationId": "foobar",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/foobar3/foobar": {
       "get": {
         "tags": [
           "global-foo-bar-replying-controller-3"
         ],
-        "operationId": "foobar",
+        "operationId": "foobar_1",
         "responses": {
           "200": {
             "description": "OK",
@@ -36,7 +56,7 @@
         "tags": [
           "global-foo-bar-replying-controller-2"
         ],
-        "operationId": "foobar_1",
+        "operationId": "foobar_2",
         "responses": {
           "200": {
             "description": "OK",
@@ -56,7 +76,7 @@
         "tags": [
           "global-foo-bar-replying-controller-1"
         ],
-        "operationId": "foobar_2",
+        "operationId": "foobar_3",
         "responses": {
           "200": {
             "description": "OK",
